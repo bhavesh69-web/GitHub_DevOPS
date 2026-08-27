@@ -7,3 +7,29 @@ git commit -m "initial file"
 git status                                                                           
 rm testing.py                                                                        
 git restore testing.py
+git remote add origin https://github.com/bhavesh69-web/GitHub_DevOPS.git
+git remote -v                                                  
+origin  https://github.com/bhavesh69-web/GitHub_DevOPS.git (fetch)
+origin  https://github.com/bhavesh69-web/GitHub_DevOPS.git (push)
+git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 583 bytes | 145.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bhavesh69-web/GitHub_DevOPS.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+mkdir clone
+cd clone
+git clone https://github.com/bhavesh69-web/Devops_Project.git
+Cloning into 'Devops_Project'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 20 (delta 3), reused 20 (delta 3), pack-reused 0 (from 0)
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (3/3), done.
+PS E:\Coding\GitHub_DevOPS\clone> 
+
